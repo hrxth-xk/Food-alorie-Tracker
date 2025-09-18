@@ -325,6 +325,10 @@ st.set_page_config(page_title="Food Calorie Tracker", layout="wide")
 st.markdown("<h1 style='margin:8px 0px'>Today</h1>", unsafe_allow_html=True)
 
 # Sidebar
+st.sidebar.markdown(
+    f"🔑 USDA_API_KEY loaded: **{bool(os.getenv('USDA_API_KEY'))}**"
+)
+
 st.sidebar.header("Profile & Goals")
 with st.sidebar.expander("Profile (expand)", expanded=False):
     _name = st.text_input("Name", value=st.session_state.get("name", "You"), key="name")
