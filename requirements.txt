@@ -7,3 +7,4 @@ python-dotenv>=1.0
 sqlalchemy>=2.0
 pydantic>=1.10
 rapidfuzz>=2.15
+reportlab>=3.6
