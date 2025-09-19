@@ -56,47 +56,36 @@ Open your browser → http://localhost:8501
 Example Output
 
 Search: Paneer
-
 Ingredients: Paneer, tomato, cream, butter
-
 Calories: 350 kcal
-
 Protein: 12 g
-
 Carbs: 18 g
-
 Fat: 28 g
-
 (screenshot placeholder)
 
 Tech Stack:
 
 Python 3.12+
-
 Pandas (data processing)
-
 Streamlit (web app)
-
 Plotly (charts)
-
 Matplotlib (EDA)
 
 Deployment:
 
 You can deploy this on:
-
-AWS EC2 + Nginx (production-ready, scalable)
-
 Streamlit Cloud (fastest, free option)
 
-Docker + ECS/Fargate (for containerized deployment)
 
-Future Enhancements
+## Output Screen Shots:
 
-Connect to USDA / FSSAI API for real nutrition data
+![Dashboard](demoimg/1.png)
+![Dashboard](demoimg/2.png)
+![Results](demoimg/3.png)
+![Results](demoimg/4.png)
+![DailyLog](demoimg/5.png)
+![Progress](demoimg/6.png)
+![Progress](demoimg/7.png)
+![Export](demoimg/8.png)
 
-Add user profiles & meal logging
 
-Track daily calories & macros
-
-Export reports as PDF/CSV
