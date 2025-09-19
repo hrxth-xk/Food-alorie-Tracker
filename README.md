@@ -11,26 +11,6 @@ Features
 
 Fast and interactive web app powered by Streamlit
 
-Project Structure
-FoodCalorieTracker/
-│
-├── data/
-│   ├── raw/
-│   │   ├── foods.csv          # Food metadata
-│   │   └── nutrition.csv      # Nutrition values
-│   └── processed/
-│       └── master_food.csv    # Combined dataset (generated)
-│
-├── src/
-│   ├── app.py                 # Streamlit app
-│   └── build_dataset.py       # Script to join food + nutrition
-│
-├── reports/
-│   └── figures/               # (Optional) EDA figures
-│
-├── requirements.txt           # Python dependencies
-└── README.md                  # Project docs
-
 Getting Started
 1. Clone the repo
 git clone https://github.com/<your-username>/food-calorie-tracker.git
